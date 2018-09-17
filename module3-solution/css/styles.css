@@ -1,0 +1,92 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #4d81f6;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    background-color: darkblue;
+    color: white;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    background: #551017;
+    color: #b5a527;
+}
+
+#nav-list a:hover {
+    background: #a690e7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    background-color: #156c80;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/* END HEADER */
+.portlet {
+    padding: 12px 20px 15px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #2446f6;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+}
